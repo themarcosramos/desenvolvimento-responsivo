@@ -1,0 +1,121 @@
+/*codigo de reset muito importante para layout*/
+*{
+	box-sizing:border-box; 
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+@font-face{
+	font-family: "Source Sans Pro ";
+	src:url('../fonts/source-sans-pro/SourceSansPro-Regular.otf');
+}
+@font-face{
+	font-family: "Source Sans Pro ";
+	src:url('../fonts/source-sans-pro/SourceSansPro-Bold.otf');
+	font-weight: bold;
+}
+@font-face{
+	font-family: "Source Sans Pro ";
+	src:url('../fonts/source-sans-pro/SourceSansPro-BoldIt.otf');
+	font-weight: bold;
+	font-style: italic;
+}
+body{
+	font-family: "Source Sans Pro";
+}
+.cabecalho{
+	background:#fff;
+	padding: 15px;
+}
+.logo{
+	background-image: url("../img/logotipo-preto.png");
+	background-repeat: no-repeat;
+	display: block;
+	width: 120px;
+	height: 53px;
+	text-indent: -9999px;/* faz o texto sumir da caixa onde ele está contido*/
+    margin: 0;
+}
+.logo--branco{
+	background-image: url('../img/logotipo-branco.png');
+	background-repeat: no-repeat;
+}
+.menu-principal__btn{
+   display: block;
+   width: 50px;
+   height: 50px;
+   text-indent: -9999px;
+   background-color:#fff;
+   border-color: #c4c4c4;
+   background-image:url('../img/menuprincipal-btn-bg.png');
+   background-repeat: no-repeat;
+   background-position: 5px 5px;  
+   border-style: solid;
+   border-radius: 5px;
+   cursor: pointer; /*colocar o mouse como link */
+   position: absolute;
+   top: 15px;
+   right: 15px;
+}
+.menu-principal__btn--fechar{
+ 	background-position: -48px 7px; 
+}
+.menu-principal__lista{
+	padding: 0;
+	list-style: none;
+}
+.menu-principal__item{
+	 text-decoration: none;
+	 font-weight: bold;
+	 color: #343434;
+	 margin-bottom: 10px;
+	 display: block;
+	 font-size: 18px;
+}
+.menu-principal__item--atual{
+	color:#f44242; 
+}
+/*Rodapé*/
+.rodape__titulo{
+   border-bottom: 1px solid #fff;
+   padding: 0 10px 10px 10px;
+   font-size: 18px;
+}
+.rodape__titulo-link{
+   padding: 0;
+   list-style: none;
+}
+.rodape__lista-item__item{
+	color: #fff;
+	text-decoration: none;
+	margin-bottom: 10px;
+	display: block;
+}
+.rodape__lista-item__item::before{
+	content: '>';
+	margin-right: 8px;
+	color: #f44242;
+}
+.rodape__linha-1{
+	background-color: #272525;
+	background-image: url('../img/rodape-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 15px;
+}
+.rodape__linha-2{
+	background-color: #000;
+	text-align: center;
+	padding: 15px;
+}
+.rodape__coluna{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.rodape{
+	color:#fff; 
+}
+.rodape .logo{
+	margin-bottom: 20px;
+}
