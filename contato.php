@@ -18,16 +18,16 @@
 		  && $email != '' 
 		  && $mensagem != '')
 	  {
-		  // usuario preencheu corretamente
+		  // usuário preencheu corretamente
 		  $mensagemEmail = 'Nome: ' . $nome . ' - ';
 		  $mensagemEmail .= 'Email: ' . $email . ' - ';
 		  $mensagemEmail .= 'Mensagem: ' . $mensagem;
 		  if(mail('contato@site.com.br', 'Mensagem de contato', $mensagemEmail)){
-			  //email enviado
+			  //e-mail enviado
 			  $sucessoFormulario = 'Mensagem enviado com sucesso!';
 		  }
 		  else{
-			  //email nao enviado
+			  //e-mail não enviado
 			  $erroFormulario = "Falha ao enviar a mensagem, tente mais tarde ou através do e-mail xxx@xxx.com";
 		  }
 	  }

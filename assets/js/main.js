@@ -19,7 +19,7 @@ $(document).ready(function(){
        dots: true
    });
 
-    // validação do fromulario de contato
+    // validação do formulário de contato
     $('.formulario').validate({
         rules:{
             nome:'required',

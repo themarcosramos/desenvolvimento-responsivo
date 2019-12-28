@@ -20,7 +20,7 @@
 	<header class="cabecalho">
 	<div class="container">
         <?php if($tituloPagina == ''): ?>
-           <h1 class="logo">Design Responsivo</h1><!--titulo e/ou logo do site -->
+           <h1 class="logo">Design Responsivo</h1><!--título e/ou logo do site -->
         <?php else: ?>
             <a href="../Projeto/index.php" class="logo">Design Responsivo</a>
         <?php endif ?>

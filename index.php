@@ -2,7 +2,7 @@
   include_once('partes/cabecalho.php');
   ?>
 	<header class="cabecalho-home">
-		<h2  class="cabecalho-home__titulo"> Texto  grande bem  aqui </h2><!-- ideal para subtitulo ou slogam -->
+		<h2  class="cabecalho-home__titulo"> Texto  grande bem  aqui </h2><!-- ideal para subtítulo ou slogan -->
 		 <p class="cabecalho-home__subtitulo">
 					texto menozinho aqui
 		 </p>
@@ -30,7 +30,7 @@
 					<p class="servicos__texto"> 
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur eaque minus dolor aliquam saepe, consectetur quibusdam expedita officia nam magni recusandae quas odio fugit reprehenderit, consequatur. Illo adipisci, velit rerum.</p>
 				</section>
-			</div><!-- fim da dic container -->
+			</div><!-- fim da div container -->
 	</section><!--  fim seção de serviços-->
 		<section  class="depoimentos"><!--  seção de depoimentos-->
 			<div class="container">
@@ -67,7 +67,7 @@
 						</p>
 					</section> 
 
-			</div><!-- fim de depoimentos__ caixa-->
+			</div><!-- fim de depoimentos caixa-->
 
 			</div>
 	</section><!-- fim seção de depoimentos-->
